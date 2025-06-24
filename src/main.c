@@ -1,4 +1,4 @@
-# include "main.h"
+# include "../include/main.h"
 
 /**
  * main - this is the entry point for the C program
@@ -10,7 +10,7 @@
 int main(int argc, char **argv)
 {
 	(void)argc, (void)argv;
-	char **msg = "Hello, World!";
+	char *msg = "Hello, World!";
 
 	printf("%s\n", msg);
 
